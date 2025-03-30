@@ -242,3 +242,116 @@
 .cont_logo img:hover {
     border: 4px solid white;
 }
+
+.car_form {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.form_heading {
+    height: 20vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_heading h1 {
+    font-size: 36px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.form_forms {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_forms form {
+    height: 65vh;
+    width: 80vh;
+    padding: 20px;
+    background-color: rgba(78, 76, 76, 0.827);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.form_forms form:hover {
+    outline: 4px solid white;
+    outline-offset: 5px;
+}
+
+.field {
+    height: 7vh;
+    width: 80%;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(103, 102, 102, 0.778);
+    color: white;
+}
+
+.field:hover {
+    border: 2px solid white;
+}
+
+.text_field {
+    height: 25vh;
+    width: 80%;
+    margin: 10px;
+    padding: 15px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(103, 102, 102, 0.778);
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+}
+
+.text_field:hover {
+    border: 2px solid white;
+}
+
+.form_btn {
+    height: 7vh;
+    width: 80%;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(62, 61, 61, 0.837);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer p:hover {
+    color: white;
+}
