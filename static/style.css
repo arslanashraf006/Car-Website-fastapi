@@ -141,3 +141,63 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
 }
+
+.cars {
+    width: 100%;
+    background-color: black;
+}
+
+.items_heading {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items_heading h1 {
+    font-size: 36px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.cars_carts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ind_carts_cars {
+    height: 40vh;
+    width: 35vh;
+    border-radius: 30px;
+    background-color: rgb(33, 33, 33, 0.887);
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+}
+
+.ind_carts_cars img {
+    height: 50%;
+    width: 100%;
+}
+
+.ind_carts_cars h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 8px;
+    color: cyan;
+}
+
+.ind_carts_cars p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.ind_carts_cars:hover {
+    outline: 4px solid white;
+    outline-offset: 5px;
+}
