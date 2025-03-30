@@ -80,3 +80,64 @@
     text-transform: capitalize;
     cursor: pointer;
 }
+
+.fav_car {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+
+.fav_heading {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fav_heading h1 {
+    font-size: 36px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.fav_car_items {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ind_car_items {
+    height: 45vh;
+    width: 39vh;
+    border-radius: 20px;
+    background-color: rgba(28, 27, 27, 0.88);
+    overflow: hidden;
+    text-align: center;
+}
+
+.ind_car_items:hover {
+    outline: 4px solid white;
+    outline-offset: 5px;
+}
+
+.ind_car_items img {
+    height: 25vh;
+    width: 100%;
+}
+
+.ind_car_items h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 8px;
+    color: cyan;
+}
+
+.ind_car_items p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
